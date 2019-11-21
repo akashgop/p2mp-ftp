@@ -12,6 +12,6 @@ The main functionality of the project is provide a reliable file transfer servic
 5.	While running the client code through command line, the arguments can be passed in command line in the following order : <server1 IPaddress> <server2 IPaddress> <server3 IPaddress> <server port no> <file name> <Maximum Segment Size> (this is the case of 3 servers).
 6.	While running the server code through command line, the arguments can be passed in command line in the following order : <server port no> <file-name> <probability-factor>. Here the file-name is the file to which the received data will be written into.
 7.	The file after downloading can be seen in a folder named server in the same directory from which the server code is run.
-8. The Maximum segment size variable is to set the maxmimum segment size transferred at a time and can be between 100 and 1000 ideally. The probability factor is the probability that the server drops a received segment and can be in the range of 0.01 to 0.1.
+8. The Maximum segment size variable is to set the maxmimum segment size transferred at a time in bytes and can be between 100 and 1000 ideally. The probability factor is the probability that the server drops a received segment and can be in the range of 0.01 to 0.1.
 9. The server port number to be followed here is assigned to a UDP socket at the server and has to be a well known port for the client.
 
