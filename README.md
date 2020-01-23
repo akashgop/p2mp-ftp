@@ -1,5 +1,5 @@
 # p2mp-ftp
-Point-to-Multipoint File Transfer Protocol
+Point-to-Multipoint File Transfer
 
 This project was done as part of the coursework under CSC 573 Internet Protocols at NC State University. 
 
